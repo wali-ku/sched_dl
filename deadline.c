@@ -113,12 +113,12 @@ int main (int argc, char **argv)
 	pthread_t thread [NUM_OF_THREADS];
        	params_t params [NUM_OF_THREADS];
 
-       	params [0].runtime_msec = 100;
-       	params [0].period_msec  = 800;
-       	params [1].runtime_msec = 300;
-       	params [1].period_msec  = 900;
-       	params [2].runtime_msec = 500;
-       	params [2].period_msec  = 1000;
+       	params [0].runtime_msec = 20;
+       	params [0].period_msec  = 100;
+       	params [1].runtime_msec = 40;
+       	params [1].period_msec  = 150;
+       	params [2].runtime_msec = 100;
+       	params [2].period_msec  = 350;
 
 	printf("main thread [%ld]\n", gettid());
 
